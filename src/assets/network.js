@@ -1,7 +1,21 @@
 import * as ethUtil from 'ethereumjs-util'
 import validateBitcoinAddress from 'bitcoin-address-validation'
+import validateWgrAddress from '@wagerr/wagerr-address-validation'
 
 export default {
+  'WGR': {
+    name: 'Wagerr',
+    type: 'network',
+    code: 'WGR',
+    color: '#f7931a',
+    decimals: 8,
+    fees: {
+      unit: 'sat/b'
+    },
+    // TODO: include network types in validation
+    isValidAddress: (address) => !!validateWgrAddress(address),
+    formatAddress: address => address
+  },
   BTC: {
     name: 'Bitcoin',
     type: 'network',

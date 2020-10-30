@@ -1,5 +1,5 @@
 {
-  "name": "@liquality/cryptoassets",
+  "name": "@wagerr/cryptoassets",
   "version": "0.2.2",
   "keywords": [
     "blockchain",
@@ -11,12 +11,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/liquality/cryptoassets.git"
+    "url": "git+ssh://git@github.com/wagerr/cryptoassets.git"
   },
   "bugs": {
-    "url": "https://github.com/liquality/cryptoassets/issues"
+    "url": "https://github.com/wagerr/cryptoassets/issues"
   },
-  "homepage": "https://github.com/liquality/cryptoassets#readme",
+  "homepage": "https://github.com/wagerr/cryptoassets#readme",
   "author": "Liquality <info@liquality.io>",
   "module": "src/index.js",
   "main": "dist/index.cjs.js",
@@ -40,6 +40,7 @@
     "@babel/runtime": "^7.4.3",
     "bignumber.js": "^8.0.1",
     "bitcoin-address-validation": "^0.2.9",
+    "@wagerr/wagerr-address-validation": "1.0.2",
     "ethereumjs-util": "^6.1.0",
     "lodash": "^4.17.11"
   },
