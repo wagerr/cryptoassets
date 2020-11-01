@@ -1,9 +1,9 @@
 import * as ethUtil from 'ethereumjs-util'
 import validateBitcoinAddress from 'bitcoin-address-validation'
-import validateWgrAddress from '@wagerr/wagerr-address-validation'
+import validateWgrAddress from '@wagerr-wdk/wagerr-address-validation'
 
 export default {
-  'WGR': {
+  WGR: {
     name: 'Wagerr',
     type: 'network',
     code: 'WGR',

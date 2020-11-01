@@ -12,13 +12,13 @@ Crypto assets data and utilities through a standard inteface
 ## Installation
 
 ```bash
-npm install @wagerr/cryptoassets --save
+npm install @wagerr-wdk/cryptoassets --save
 ```
 
 ## Usage
 
 ```
-> const cryptoassets = require('@wagerr/cryptoassets')
+> const cryptoassets = require('@wagerr-wdk/cryptoassets')
 > cryptoassets.BTC.code
 BTC
 > cryptoassets.ETH.isValidAddress('0x5A0b54D5dc17e0AadC383d2db43B0a0D3E029c4c)

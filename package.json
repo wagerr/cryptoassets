@@ -1,5 +1,5 @@
 {
-  "name": "@wagerr/cryptoassets",
+  "name": "@wagerr-wdk/cryptoassets",
   "version": "0.2.2",
   "keywords": [
     "blockchain",
@@ -40,7 +40,7 @@
     "@babel/runtime": "^7.4.3",
     "bignumber.js": "^8.0.1",
     "bitcoin-address-validation": "^0.2.9",
-    "@wagerr/wagerr-address-validation": "1.0.2",
+    "@wagerr-wdk/wagerr-address-validation": "^1.0.2",
     "ethereumjs-util": "^6.1.0",
     "lodash": "^4.17.11"
   },
